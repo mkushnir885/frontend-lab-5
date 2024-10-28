@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="ІМ-22, Кушнір">
+    <title>Кушнір М.М., ІМ-22</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Форма для заповнення</h2>
+  <div class="dataValidation">
+    <form id="form">
+      <label for="fullName">ПІБ:</label>
+      <input type="text" id="fullName" onchange='checkInputValidity(this)' placeholder="Петренко П.П."><br><br>
+      <label for="group">Група:</label>
+      <input type="text" id="group" onchange='checkInputValidity(this)' placeholder="ІМ-99"><br><br>
+      <label for="number">Номер телефону:</label>
+      <input type="text" id="number" onchange='checkInputValidity(this)' placeholder="(098)-765-43-21"><br><br>
+      <label for="faculty">Факультет:</label>
+      <input type="text" id="faculty" onchange='checkInputValidity(this)' placeholder="ФІОТ"><br><br>
+      <label for="address">Адреса:</label>
+      <input type="text" id="address" onchange='checkInputValidity(this)' placeholder="м. Київ"><br><br>
+      <input type="submit" value="Підтвердити">
+    </form>
+
+    <div id="data">
+      <h2>Введені дані</h2>
+      <p><strong>ПІБ:</strong> <span id="fullNameOutput"></span></p>
+      <p><strong>Група:</strong> <span id="groupOutput"></span></p>
+      <p><strong>Номер телефону:</strong> <span id="numberOutput"></span></p>
+      <p><strong>Факультет:</strong> <span id="facultyOutput"></span></p>
+      <p><strong>Адреса:</strong> <span id="addressOutput"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
