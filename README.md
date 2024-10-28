@@ -1,6 +1,6 @@
 # Basics of Front-end technologies
-## Laboratory work 4
-### Access to objects and scripts. Access to object properties and methods
+## Laboratory work 5
+### JavaScript. "Events. Regular expressions"
 
 ---
 
